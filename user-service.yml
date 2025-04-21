@@ -1,0 +1,12 @@
+server:
+  port: 8081
+
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/userdb
+    username: your_pg_user
+    password: your_pg_password
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
